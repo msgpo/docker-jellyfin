@@ -136,7 +136,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
-| `-e UMASK_SET=<022>` | for umask setting of Emby, default if left unset is 022. |
+| `-e UMASK_SET=<022>` | for umask setting of Jellyfin, default if left unset is 022. |
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
